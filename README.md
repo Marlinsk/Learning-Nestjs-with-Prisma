@@ -37,11 +37,13 @@ Clonando o repositório para em sua máquina
 git clone https://github.com/Marlinsk/learning-Nestjs-with-Prisma.git
 ```
 
-Instale as dependências. **Observação:** Quando rodar o comando docker compose up no seu terminal, o node_modules é instalado junto.
+Instale as dependências.
 
 ```bash
 npm install
 ```
+
+**Observação:** Quando rodar o comando docker compose up no seu terminal, o node_modules é instalado junto.
 
 ### Comandos do docker
 
