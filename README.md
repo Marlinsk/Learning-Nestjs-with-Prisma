@@ -12,13 +12,36 @@ Aplicação back-end desenvolvida para estudo, utilizando o framework do Nodejs,
 - express
 - typescript
 - nestjs
+- docker
 - jest
 - prisma
+- env
 - swagger-ui-express
 - editorconfig
 - eslint
 - prettier
+
+### Aviso
+
+Para poder testar a aplicação é necessário você ter conhecimento em:
+
 - docker
+- docker-compose
+- postgres
+
+### Tutorial
+
+Clonando o repositório para em sua máquina
+
+```bash
+git clone https://github.com/Marlinsk/learning-Nestjs-with-Prisma.git
+```
+
+Instale as dependências. **Observação:** Quando rodar o comando docker compose up no seu terminal, o node_modules é instalado junto.
+
+```bash
+npm install
+```
 
 ### Comandos do docker
 
