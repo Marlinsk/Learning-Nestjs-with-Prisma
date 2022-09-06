@@ -1,4 +1,4 @@
-# Simple Blog API
+# Simple Blog API Rest
 
 Projeto API Rest com Nestjs
 
