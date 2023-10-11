@@ -1,4 +1,4 @@
-# Simple Blog API Rest
+# back-end de blog
 
 Projeto API Rest com Nestjs
 
@@ -6,7 +6,7 @@ Projeto API Rest com Nestjs
 
 Aplicação back-end desenvolvida para estudo, utilizando o framework do Nodejs, o Nestjs, que é um dos melhores e mais completos frameworks NodeJS disponível no mercado, sendo até comparado com o Spring Boot do Java, por ambos utilizarem a estrutura MVC e possuírem um grande leque de funcionalidades e bibliotecas próprias, que os tornam completos para projetos de grande escala.
 
-### Tecnologias
+## Tecnologias
 
 - nodejs
 - express
@@ -21,7 +21,7 @@ Aplicação back-end desenvolvida para estudo, utilizando o framework do Nodejs,
 - eslint
 - prettier
 
-### Aviso
+## Aviso
 
 Para poder testar a aplicação é necessário você ter conhecimento em:
 
@@ -29,7 +29,7 @@ Para poder testar a aplicação é necessário você ter conhecimento em:
 - docker-compose
 - postgres
 
-### Tutorial
+## Tutorial
 
 Clonando o repositório para em sua máquina
 
