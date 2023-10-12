@@ -21,15 +21,8 @@ Aplicação back-end desenvolvida para estudo, utilizando o framework do Nodejs,
 - eslint
 - prettier
 
-## Aviso
-
-Para poder testar a aplicação é necessário você ter conhecimento em:
-
-- docker
-- docker-compose
-- postgres
-
 ## Tutorial
+**Aviso:** Para poder testar a aplicação é necessário você ter conhecimento em: container, docker, postgres, comandos de terminal.
 
 Clonando o repositório para em sua máquina
 
