@@ -21,11 +21,10 @@ Aplicação back-end desenvolvida para estudo, utilizando o framework do Node.js
 - eslint
 - prettier
 
-## Tutorial
+## Passo a passo
 **Aviso:** Para poder testar a aplicação é necessário você ter conhecimento em: container, docker, postgres, comandos de terminal.
 
 ### Clonando e configurando o projeto
-
 **1º passo: clone o repositório para sua máquina com github.**
 
 ```bash
@@ -43,8 +42,7 @@ NODE_ENV=development
 DATABASE_URL="postgresql://postgres:docker@db:5432/posts"
 ```
 
-**Observação:** Quando rodar o comando docker compose up no seu terminal, o node_modules é instalado junto.
-
+## Executando o container
 **Observação:** Quando rodar o comando docker compose up no seu terminal, o node_modules é instalado junto, então se você instalou o node_modules antes, remova-o com o comando **rm -rf node_modules** e depois execute o comando **docker-compose up**.
 
 **1º passo: certifique-se que a pasta node_modules não esteja no projeto, e depois de removê-la usando 'rm -rf node_modules', use o comando abaixo para subir o container**
@@ -52,6 +50,11 @@ DATABASE_URL="postgresql://postgres:docker@db:5432/posts"
 docker compose up
 ```
 
+**2º passo: tendo tudo rodando, agora tudo que você for instalar, precisará entrar no terminal do container e executar o comando npm ou npx, lembrando que para isso o container precisa estar rodando.**
+```bash
+docker compose exec app bash
+```
+## Outros comandos do docker-compose
 Comando para rodar o container em background.
 
 ```bash
@@ -59,19 +62,14 @@ docker compose start
 ```
 
 Comando para listar os containers.
-
 ```bash
 docker compose ps
 ```
-
 Comando para fazer a parada dos containers que estão correndo.
-
 ```bash
 docker compose stop
 ```
-
 Comando para excluir o container.
-
 ```bash
 docker compose down
 ```
