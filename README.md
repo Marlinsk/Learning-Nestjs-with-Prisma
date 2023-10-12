@@ -4,11 +4,11 @@ Aplicação back-end desenvolvida para estudo, utilizando o framework do Node.js
 
 ## Neste projeto, foi verificado a minha capacidade de:
 
-  -- Entender como funciona e aplica containeres;
+  -- Criar imagens Docker;
 
-  -- Utilização do Docker para rodar imagens;
+  -- Criar e utilizar o docker-compose para orquestração de imagens;
 
-  -- Utilização do docker-compose para orquestração de imagens;
+  -- Criar um armazenamento local para o banco de dados não perder os dados quando o container cair de produção;
 
 ## Tecnologias usadas
 - Javascript
