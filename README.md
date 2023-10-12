@@ -2,7 +2,15 @@
 
 Aplicação back-end desenvolvida para estudo, utilizando o framework do Node.js, o Nest.js, que é um dos melhores e mais completos frameworks Node.js disponível no mercado, sendo até comparado com o Spring Boot do Java, por ambos utilizarem a estrutura MVC e possuírem um grande leque de funcionalidades e bibliotecas próprias, que os tornam completos para projetos de grande escala.
 
-## Tecnologias
+## Neste projeto, foi verificado a minha capacidade de:
+
+  -- Entender como funciona e aplica containeres;
+
+  -- Utilização do Docker para rodar imagens;
+
+  -- Utilização do docker-compose para orquestração de imagens;
+
+## Tecnologias usadas
 - Javascript
 - Typescript
 - Node.js
