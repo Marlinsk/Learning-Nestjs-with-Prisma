@@ -29,12 +29,12 @@ Aplicação back-end desenvolvida para estudo, utilizando o framework do Nodejs,
 Clone o repositório para sua máquina.
 
 ```bash
-git clone https://github.com/Marlinsk/backend-posts.git
+git clone https://github.com/Marlinsk/posts-backend.git
 ```
 
 Entre na pasta do projeto.
 ```bash
-cd backend-posts
+cd posts-backend
 ```
 
 Instale as dependências.
