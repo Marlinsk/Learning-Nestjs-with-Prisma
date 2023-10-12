@@ -43,8 +43,6 @@ Instale as dependências.
 npm install
 ```
 
-**Observação:** Quando rodar o comando docker compose up no seu terminal, o node_modules é instalado junto.
-
 ### Comandos do docker
 
 Comando para subir o container.
@@ -52,6 +50,8 @@ Comando para subir o container.
 ```bash
 docker compose up
 ```
+
+**Observação:** Quando rodar o comando docker compose up no seu terminal, o node_modules é instalado junto.
 
 Comando para rodar o container em background.
 
