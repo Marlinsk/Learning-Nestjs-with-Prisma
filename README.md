@@ -1,6 +1,6 @@
 # backend posts
 
-Aplicação back-end desenvolvida para estudo, utilizando o framework do Nodejs, o Nestjs, que é um dos melhores e mais completos frameworks NodeJS disponível no mercado, sendo até comparado com o Spring Boot do Java, por ambos utilizarem a estrutura MVC e possuírem um grande leque de funcionalidades e bibliotecas próprias, que os tornam completos para projetos de grande escala.
+Aplicação back-end desenvolvida para estudo, utilizando o framework do Node.js, o Nest.js, que é um dos melhores e mais completos frameworks Node.js disponível no mercado, sendo até comparado com o Spring Boot do Java, por ambos utilizarem a estrutura MVC e possuírem um grande leque de funcionalidades e bibliotecas próprias, que os tornam completos para projetos de grande escala.
 
 ## Tecnologias
 - Javascript
@@ -16,7 +16,7 @@ Aplicação back-end desenvolvida para estudo, utilizando o framework do Nodejs,
 - swagger-ui-express (lib de interface de documentação)
 - docker
 - docker-compose
-- Jest
+- Jest (lib criada pelo facebook para realizar testes unitários)
 - editorconfig
 - eslint
 - prettier
