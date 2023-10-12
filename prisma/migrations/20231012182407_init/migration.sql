@@ -16,7 +16,7 @@ CREATE TABLE "post" (
     "title" VARCHAR(255) NOT NULL,
     "content" TEXT,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "updatedAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" TIMESTAMP(3) NOT NULL,
     "authorId" INTEGER,
 
     CONSTRAINT "post_pkey" PRIMARY KEY ("id")

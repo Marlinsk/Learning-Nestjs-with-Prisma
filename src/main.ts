@@ -5,7 +5,6 @@ import { ConflictInterceptor } from './common/errors/interceptors/conflict.inter
 import { DataBaseInterceptor } from './common/errors/interceptors/database.interceptor';
 import { NotFoundErrorInterceptor } from './common/errors/interceptors/notfound.interceptor';
 import { UnauthorizedErrorInterceptor } from './common/errors/interceptors/unauthorized.interceptor';
-import { HttpExceptionFilter } from './common/filters/http-exception.filter';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 
 async function bootstrap() {
@@ -27,11 +26,12 @@ async function bootstrap() {
       transform: true,
     }),
   );
-  // app.useGlobalFilters(new HttpExceptionFilter());
+
   app.useGlobalInterceptors(new ConflictInterceptor());
   app.useGlobalInterceptors(new DataBaseInterceptor());
   app.useGlobalInterceptors(new UnauthorizedErrorInterceptor());
   app.useGlobalInterceptors(new NotFoundErrorInterceptor());
-  await app.listen(process.env.PORT || 3100);
+
+  await app.listen(3000);
 }
 bootstrap();
