@@ -1,4 +1,4 @@
-# backend posts
+# posts backend
 
 Aplicação back-end desenvolvida para estudo, utilizando o framework do Nodejs, o Nestjs, que é um dos melhores e mais completos frameworks NodeJS disponível no mercado, sendo até comparado com o Spring Boot do Java, por ambos utilizarem a estrutura MVC e possuírem um grande leque de funcionalidades e bibliotecas próprias, que os tornam completos para projetos de grande escala.
 
@@ -26,43 +26,43 @@ Aplicação back-end desenvolvida para estudo, utilizando o framework do Nodejs,
 
 ### Clonando e configurando o projeto
 
-Clone o repositório para sua máquina.
+**1º passo: clone o repositório para sua máquina com github.**
 
 ```bash
-git clone https://github.com/Marlinsk/backend-posts.git
+git clone https://github.com/Marlinsk/posts-backend.git
 ```
 
-Entre na pasta do projeto.
+**2º passo: entre na pasta do projeto.**
 ```bash
-cd backend-posts
+cd posts-backend
 ```
 
-Instale as dependências.
-
+**3º passo: antes de usar o docker-compose up, crie um arquivo .env fora da pasta src e insira as seguintes variáveis.**
 ```bash
-npm install
+NODE_ENV=development
+DATABASE_URL="postgresql://postgres:docker@db:5432/posts"
 ```
 
-**Observação:** Quando rodar o comando docker compose up no seu terminal, o node_modules é instalado junto.
+### Rodando o container
 
-### Comandos do docker
+**Observação:** Quando rodar o comando docker compose up no seu terminal, o node_modules é instalado junto, então se você instalou o node_modules antes, remova-o com o comando **rm -rf node_modules** e depois execute o comando **docker-compose up**.
 
-Comando para subir o container.
-
+**1º passo: certifique-se que a pasta node_modules não esteja no projeto, e depois de removê-la usando 'rm -rf node_modules', use o comando abaixo para subir o container**
 ```bash
 docker compose up
 ```
+
+**2º passo: abra uma outra aba no terminal e execute o seguinte comando para entrar no terminal do container. Nele você poderá instalar as libs e excutar os comandos de cli com npx.**
+```bash
+docker compose exec app bash
+```
+
+## Outros comandos do docker-compose
 
 Comando para rodar o container em background.
 
 ```bash
 docker compose start
-```
-
-Comando para entrar no terminal do container.
-
-```bash
-docker compose exec app bash
 ```
 
 Comando para listar os containers.
