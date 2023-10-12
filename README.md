@@ -24,7 +24,6 @@ Aplicação back-end desenvolvida para estudo, utilizando o framework do Node.js
 - swagger-ui-express (lib de interface de documentação)
 - docker
 - docker-compose
-- Jest (lib criada pelo facebook para realizar testes unitários)
 - editorconfig
 - eslint
 - prettier
@@ -64,6 +63,7 @@ docker-compose up
 ```bash
 docker-compose exec app bash
 ```
+
 ## Outros comandos do docker-compose
 Comando para rodar o container em background.
 
