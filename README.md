@@ -48,7 +48,7 @@ DATABASE_URL="postgresql://postgres:docker@db:5432/posts"
 
 **1º passo: certifique-se que a pasta node_modules não esteja no projeto, e depois de removê-la usando 'rm -rf node_modules', use o comando abaixo para subir o container**
 ```bash
-docker-compose up
+docker-compose up -d
 ```
 
 **2º passo: tendo tudo rodando, agora tudo que você for instalar, precisará entrar no terminal do container e executar o comando npm ou npx, lembrando que para isso o container precisa estar rodando.**
