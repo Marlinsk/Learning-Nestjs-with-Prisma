@@ -56,6 +56,10 @@ docker-compose up -d
 docker-compose exec app bash
 ```
 
+### Serviços utilizados ao executar o docker-compose
+- Aplicação principal
+- Postgres
+
 ## Outros comandos do docker-compose
 Comando para rodar o container em background.
 
